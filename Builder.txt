@@ -1,0 +1,5 @@
+docker build -t node-app-test .
+
+docker build -t node-app .
+
+docker run --rm --network node-net node-app-test
